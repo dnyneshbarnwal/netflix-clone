@@ -1,4 +1,4 @@
-// components/Banner/index.tsx
+// components/Banner/index.tsx in v2
 import { useEffect, useState, useContext } from 'react';
 import axios from 'axios';
 
