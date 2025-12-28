@@ -58,6 +58,7 @@
       padding: 0.3rem;
       display: -webkit-box;
       -webkit-line-clamp: 3;
+      line-clamp: 3;
       -webkit-box-orient: vertical;
       overflow: hidden;
 
@@ -67,7 +68,7 @@
     .buttonRow {
       display: flex;
       flex-direction: row;
-      margin: 0.3rem 0;
+      margin: 1rem 0 0.3rem 0;
 
       @include for-mobile-only {
         justify-content: center;
