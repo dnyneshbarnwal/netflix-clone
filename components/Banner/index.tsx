@@ -1,4 +1,5 @@
 //Changes in V2: components/Banner/index.tsx in v2
+// v1 Changes: Refactored Banner component to fetch and display a random popular movie with play and info buttons.
 import { useEffect, useState, useContext } from 'react';
 import axios from 'axios';
 
@@ -7,8 +8,6 @@ import { Media } from '../../types';
 import { Play, Info } from '../../utils/icons';
 import { ModalContext } from '../../context/ModalContext';
 import styles from '../../styles/Banner.module.scss';
-
-
 
 export default function Banner() {
   const [media, setMedia] = useState<Media>();
